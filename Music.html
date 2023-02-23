@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="music_styles.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="main">  
+        <div class="musicContainer">
+        <h1 class="SongName" title= "Song Name">Night Changes </h1>
+        <h4 class="ArtistName" title= "Artist Name" >  ONE DIRECTION </h4>
+        <div class="Cover"> <img class="backimg" src="./cover/oneD.jpg" > 
+        <audio src="songs\Night-Changes.mp3"></audio></div>
+        
+        <div class="progresscontainer">
+            
+            <div class="timemeter">
+                <div class="starttime">0:00</div>
+                <div class="endtime">4:00</div>
+            </div>
+            <div class="progeess">
+                <div class="meter"></div>
+            </div>
+        </div>
+
+
+         <div class="musicBtn" >
+            <i class="fa-solid fa-backward" id= "Backward" title="Previous"></i> 
+            <i class="fa-solid fa-play " id= "play" title="Play"></i> 
+            <i class="fa-solid fa-forward" id= "Forward" title="Next"></i> </div>
+            
+    </div>
+    <script src="https://kit.fontawesome.com/543f2cd1e0.js" crossorigin="anonymous"></script>
+    <script src="music_java.js"></script>
+</body>
+</html>

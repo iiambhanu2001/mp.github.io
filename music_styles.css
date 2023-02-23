@@ -1,0 +1,128 @@
+
+body{
+background-color: thistle;
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+text-align: center;
+}
+html{
+  font-size: 110%;
+  font-family: "jost",sans-serif;
+
+}
+.main
+{
+  width: 100vw;
+  height: 100vh;
+
+ 
+
+}
+
+  .musicContainer{ 
+    background-color: #333333;
+    border-radius: 1.5rem;
+    height: 35rem;
+    box-shadow: .1rem 0 0 .1rem;
+    width: 25rem;
+    margin-left: 35%;
+    margin-top: 0.5%;
+
+    
+
+  }
+  .cover{
+      width: 20rem;
+      height: 20rem;
+      margin: auto;
+      margin-bottom: 20%;
+  } 
+
+  .Cover img{
+  margin-top: 15%;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    
+   
+   
+
+  }
+    
+.SongName{
+  font-family: "jost",sans-serif;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 8%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    
+    
+}
+.ArtistName{
+  font-family: "jost",sans-serif;
+  margin-top: -10%;
+  margin-left: 5%;
+  margin-right: 8%;
+  color: wheat;
+  
+}
+.ArtistName :hover{
+  cursor: pointer;
+}
+.musicBtn {
+ display: flex;
+justify-content: space-between;
+color: black;
+margin: 30% 30% 10% ;
+cursor: pointer;
+margin-top: 2rem;
+font-size: 2rem;
+
+}
+.progresscontainer{
+  position: absolute;
+  bottom: 6.5rem;
+  height: auto;
+  width: 27%;
+  padding: 2rem;
+  margin-right: 0;
+
+  
+  
+}
+.progeess{
+
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 5%;
+  background-color: white;
+
+  cursor: pointer;
+}
+.meter {
+  width: 0%;
+  height: 0.5rem;
+  background-color:black;
+  cursor: pointer;
+
+}
+.timemeter{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.anime{
+  animation: rotateplayer 5s linear infinite;
+}
+@keyframes rotateplayer{
+from {
+  transform: rotate(0deg);
+}
+to{
+  transform: rotate(360deg);
+}
+}
